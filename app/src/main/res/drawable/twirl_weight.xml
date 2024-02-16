@@ -3,6 +3,11 @@
     <!--
         based on all-in-one example
         https://developer.android.com/reference/android/graphics/drawable/AnimatedVectorDrawable#define-an-animatedvectordrawable-all-in-one-xml-file
+
+        https://developer.android.com/jetpack/compose/animation/choose-api also informative
+
+        TODO: https://developer.android.com/reference/android/view/animation/PathInterpolator for spring
+        
     -->
     <aapt:attr name="android:drawable">
         <vector
