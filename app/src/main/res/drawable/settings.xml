@@ -8,6 +8,8 @@
     <!-- apparently paths can't be scaled but groups of paths can?? -->
     <group
             android:name="settings"
+            android:pivotX="480"
+            android:pivotY="480"
     >
         <path
                 android:fillColor="@android:color/white"

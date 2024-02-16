@@ -10,7 +10,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val imageView = findViewById<ImageView>(R.id.avd);
+        startAvd(R.id.avd)
+        startAvd(R.id.avd2)
+    }
+
+    fun startAvd(id: Int) {
+        val imageView = findViewById<ImageView>(id);
         val avd = imageView.drawable as AnimatedVectorDrawable;
         avd.start();
     }
